@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandaditos Jeshia - Servicio de Mensajería Local</title>
+    <meta name="description" content="Mandaditos Jeshia - Servicio local de mensajería y encargos en Acayucan, Oluta y Soconusco, Veracruz. Rápido, seguro y confiable.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+    <!-- Particles Background -->
+    <div class="particles-container" id="particles"></div>
+    
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="images/logo.png" alt="Mandaditos Jeshia" class="logo-img">
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                <li><a href="#cobertura" class="nav-link">Cobertura</a></li>
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" id="mobileToggle" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-gradient"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="hero-label">
+                    <span class="hero-icon">🛵</span>
+                    Servicio rápido y confiable
+                </span>
+                <h1 class="hero-title">
+                    Mandaditos <span class="gradient-text">Jeshia</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Resolvemos tus tareas cotidianas para que ahorres tiempo. 
+                    Servicio de mensajería y encargos personales en Acayucan, Oluta y Soconusco.
+                </p>
+                <div class="hero-buttons">
+                    <a href="tel:9241440357" class="btn-primary">
+                        <span class="btn-icon">📞</span>
+                        Llamar Ahora
+                    </a>
+                    <a href="#servicios" class="btn-secondary">
+                        Ver Servicios
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="3">0</span>
+                        <span class="stat-label">Municipios</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="12">0</span>
+                        <span class="stat-suffix">+</span>
+                        <span class="stat-label">Servicios</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="100">0</span>
+                        <span class="stat-suffix">%</span>
+                        <span class="stat-label">Confiable</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-sphere">
+                    <div class="sphere-inner">
+                        <div class="sphere-glow"></div>
+                        <div class="sphere-icon">🛵</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof -->
+    <section class="social-proof">
+        <div class="container">
+            <p class="social-proof-text">Empresas y familias que confían en nosotros</p>
+            <div class="social-proof-logos">
+                <div class="logo-item">🏪 Tienda Local</div>
+                <div class="logo-item">🏥 Clínica</div>
+                <div class="logo-item">🏠 Familia</div>
+                <div class="logo-item">📦 Negocio</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section class="servicios" id="servicios">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Nuestros Servicios</span>
+                <h2 class="section-title">Todo lo que puedes <span class="gradient-text">encomendarnos</span></h2>
+                <p class="section-subtitle">
+                    Amplia gama de servicios de mensajería y encargos para resolver tus necesidades cotidianas
+                </p>
+            </div>
+            <div class="services-grid">
+                <!-- Servicio 1: Compras -->
+                <div class="service-card-flip">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <div class="service-placeholder" style="background: linear-gradient(135deg, #F97316 0%, #EA580C 100%);">
+                                <span class="placeholder-icon">🛒</span>
+                            </div>
+                            <div class="service-overlay">
+                                <h3 class="service-title-front">Compras</h3>
+                            </div>
+                        </div>
+                        <div class="service-card-back glass-card">
+                            <div class="service-icon">🛒</div>
+                            <h3 class="service-title-back">Compras</h3>
+                            <p class="service-description">Adquisición de productos en tiendas locales, mercados y supermercados de tu preferencia.</p>
+                            <div class="service-features">
+                                <span class="feature-tag">Tiendas locales</span>
+                                <span class="feature-tag">Mercados</span>
+                                <span class="feature-tag">Supermercados</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Servicio 2: Depósitos -->
+                <div class="service-card-flip">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <div class="service-placeholder" style="background: linear-gradient(135deg, #3B82F6 0%, #2563EB 100%);">
+                                <span class="placeholder-icon">🏦</span>
+                            </div>
+                            <div class="service-overlay">
+                                <h3 class="service-title-front">Depósitos</h3>
+                            </div>
+                        </div>
+                        <div class="service-card-back glass-card">
+                            <div class="service-icon">🏦</div>
+                            <h3 class="service-title-back">Depósitos y Pagos</h3>
+                            <p class="service-description">Trámites bancarios, depósitos, pagos de servicios y transferencias económicas.</p>
+                            <div class="service-features">
+                                <span class="feature-tag">Bancos</span>
+                                <span class="feature-tag">Pagos</span>
+                                <span class="feature-tag">Transferencias</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Servicio 3: Envíos -->
+                <div class="service-card-flip">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <div class="service-placeholder" style="background: linear-gradient(135deg, #8B5CF6 0%, #7C3AED 100%);">
+                                <span class="placeholder-icon">📦</span>
+                            </div>
+                            <div class="service-overlay">
+                                <h3 class="service-title-front">Envíos</h3>
+                            </div>
+                        </div>
+                        <div class="service-card-back glass-card">
+                            <div class="service-icon">📦</div>
+                            <h3 class="service-title-back">Envíos</h3>
+                            <p class="service-description">Recolección y entrega de paquetes, documentos y encomiendas dentro de la zona.</p>
+                            <div class="service-features">
+                                <span class="feature-tag">Paquetes</span>
+                                <span class="feature-tag">Documentos</span>
+                                <span class="feature-tag">Urgente</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Servicio 4: Entregas -->
+                <div class="service-card-flip">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <div class="service-placeholder" style="background: linear-gradient(135deg, #22C55E 0%, #16A34A 100%);">
+                                <span class="placeholder-icon">🚚</span>
+                            </div>
+                            <div class="service-overlay">
+                                <h3 class="service-title-front">Entregas</h3>
+                            </div>
+                        </div>
+                        <div class="service-card-back glass-card">
+                            <div class="service-icon">🚚</div>
+                            <h3 class="service-title-back">Entregas de Productos</h3>
+                            <p class="service-description">Distribución de mercancía y productos para negocios locales, tiendas y restaurantes.</p>
+                            <div class="service-features">
+                                <span class="feature-tag">Negocios</span>
+                                <span class="feature-tag">Tiendas</span>
+                                <span class="feature-tag">Restaurantes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Servicio 5: Gasolina -->
+                <div class="service-card-flip">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <div class="service-placeholder" style="background: linear-gradient(135deg, #EF4444 0%, #DC2626 100%);">
+                                <span class="placeholder-icon">⛽</span>
+                            </div>
+                            <div class="service-overlay">
+                                <h3 class="service-title-front">Gasolina</h3>
+                            </div>
+                        </div>
+                        <div class="service-card-back glass-card">
+                            <div class="service-icon">⛽</div>
+                            <h3 class="service-title-back">Traslado de Gasolina</h3>
+                            <p class="service-description">Suministro de combustible a domicilio. Te llevamos la gasolina que necesitas.</p>
+                            <div class="service-features">
+                                <span class="feature-tag">A domicilio</span>
+                                <span class="feature-tag">Rápido</span>
+                                <span class="feature-tag">Seguro</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Servicio 6: Medicinas -->
+                <div class="service-card-flip">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <div class="service-placeholder" style="background: linear-gradient(135deg, #EC4899 0%, #DB2777 100%);">
+                                <span class="placeholder-icon">💊</span>
+                            </div>
+                            <div class="service-overlay">
+                                <h3 class="service-title-front">Medicinas</h3>
+                            </div>
+                        </div>
+                        <div class="service-card-back glass-card">
+                            <div class="service-icon">💊</div>
+                            <h3 class="service-title-back">Medicinas</h3>
+                            <p class="service-description">Compra y entrega de medicamentos desde farmacias locales. Tu salud primero.</p>
+                            <div class="service-features">
+                                <span class="feature-tag">Farmacias</span>
+                                <span class="feature-tag">Urgencias</span>
+                                <span class="feature-tag">Cuidado</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Adicionales -->
+    <section class="servicios-extra">
+        <div class="container">
+            <div class="extra-services-grid">
+                <!-- Papelería -->
+                <div class="extra-service-card glass-card">
+                    <div class="extra-service-icon">📄</div>
+                    <h3 class="extra-service-title">Papelería</h3>
+                    <p class="extra-service-desc">Trámites escolares, copias, documentos y más</p>
+                </div>
+                <!-- Avisos y Cartas -->
+                <div class="extra-service-card glass-card">
+                    <div class="extra-service-icon">✉️</div>
+                    <h3 class="extra-service-title">Avisos y Cartas</h3>
+                    <p class="extra-service-desc">Entrega de mensajes físicos y documentos personales</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cobertura Section -->
+    <section class="cobertura" id="cobertura">
+        <div class="container">
+            <div class="cobertura-content">
+                <div class="cobertura-info">
+                    <span class="section-label">Zona de Servicio</span>
+                    <h2 class="section-title">Donde <span class="gradient-text">operamos</span></h2>
+                    <p class="cobertura-desc">
+                        Brindamos servicio de mensajería y encargos en tres municipios de Veracruz. 
+                        Coverage area marked with delivery zones and service points.
+                    </p>
+                    <div class="coverage-list">
+                        <div class="coverage-item">
+                            <span class="coverage-icon">📍</span>
+                            <div class="coverage-details">
+                                <h4>Acayucan</h4>
+                                <p>Servicio completo</p>
+                            </div>
+                        </div>
+                        <div class="coverage-item">
+                            <span class="coverage-icon">📍</span>
+                            <div class="coverage-details">
+                                <h4>Oluta</h4>
+                                <p>Servicio completo</p>
+                            </div>
+                        </div>
+                        <div class="coverage-item">
+                            <span class="coverage-icon">📍</span>
+                            <div class="coverage-details">
+                                <h4>Soconusco</h4>
+                                <p>Servicio completo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cobertura-visual">
+                    <div class="map-placeholder glass-card">
+                        <div class="map-icon">🗺️</div>
+                        <h3>Zona de Cobertura</h3>
+                        <p>Acayucan, Oluta y Soconusco</p>
+                        <p class="map-sub">Veracruz, México</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios Section -->
+    <section class="testimonios">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Testimonios</span>
+                <h2 class="section-title">Lo que dicen <span class="gradient-text">nuestros clientes</span></h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card glass-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">"Excelente servicio, muy puntuales y confiables. Me ahorran mucho tiempo con mis compras del supermercado."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👩</div>
+                        <div class="author-info">
+                            <span class="author-name">María G.</span>
+                            <span class="author-role">Acayucan</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card glass-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">"Mi negocio necesita entregas diarias y Mandaditos Jeshia siempre cumple a tiempo. Totalmente recomendados."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👨</div>
+                        <div class="author-info">
+                            <span class="author-name">Carlos R.</span>
+                            <span class="author-role">Propietario de tienda</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card glass-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">"Para mí que no puedo salir de casa, es un alivio tener este servicio. Traen mis medicines puntualmente."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👴</div>
+                        <div class="author-info">
+                            <span class="author-name">José L.</span>
+                            <span class="author-role">Adulto mayor</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section class="nosotros" id="nosotros">
+        <div class="container">
+            <div class="nosotros-grid">
+                <div class="nosotros-visual">
+                    <div class="nosotros-image glass-card">
+                        <span class="nosotros-icon">🛵</span>
+                        <h3>Mandaditos Jeshia</h3>
+                        <p>Desde 2020 al servicio de la comunidad</p>
+                    </div>
+                </div>
+                <div class="nosotros-content">
+                    <span class="section-label">Sobre Nosotros</span>
+                    <h2 class="section-title">Compromiso y <span class="gradient-text">confianza</span></h2>
+                    <p class="nosotros-text">
+                        Somos un servicio local de mensajería y encargos personales comprometidos con resolver 
+                        las tareas cotidianas de nuestra comunidad. Notre mission is to save you time and effort 
+                        by handling your errands professionally.
+                    </p>
+                    <p class="nosotros-text">
+                        atendemos con rapidez, seguridad y un trato cercano y humano. Tu tiempo vale, 
+                        y nosotros lo hacemos posible.
+                    </p>
+                    <div class="nosotros-features">
+                        <div class="nosotros-feature">
+                            <span class="feature-check">✓</span>
+                            <span>Atención personalizada</span>
+                        </div>
+                        <div class="nosotros-feature">
+                            <span class="feature-check">✓</span>
+                            <span>Servicio rápido y confiable</span>
+                        </div>
+                        <div class="nosotros-feature">
+                            <span class="feature-check">✓</span>
+                            <span>Precios accesibles</span>
+                        </div>
+                        <div class="nosotros-feature">
+                            <span class="feature-check">✓</span>
+                            <span>Disponible en 3 municipios</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="cta-final">
+        <div class="cta-bg-gradient"></div>
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">¿Necesitas ayuda con algo?</h2>
+                <p class="cta-subtitle">Contáctanos y resolvemos tus encargos hoy mismo</p>
+                <div class="cta-buttons">
+                    <a href="tel:9241440357" class="btn-primary btn-large">
+                        <span>📞</span> Llamar Ahora
+                    </a>
+                    <a href="https://wa.me/529241440357" class="btn-secondary btn-large">
+                        <span>💬</span> WhatsApp
+                    </a>
+                </div>
+                <p class="cta-urgency">📱 Available Monday to Sunday, 8AM to 8PM</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section class="contacto" id="contacto">
+        <div class="container">
+            <div class="contacto-grid">
+                <div class="contacto-info">
+                    <span class="section-label">Contacto</span>
+                    <h2 class="section-title">Escríbenos o <span class="gradient-text">llámanos</span></h2>
+                    <p class="contacto-desc">
+                        Estamos disponibles para atenderte. Contáctanos por teléfono o redes sociales.
+                    </p>
+                    <div class="contacto-methods">
+                        <a href="tel:9241440357" class="contacto-method">
+                            <span class="method-icon">📞</span>
+                            <div class="method-details">
+                                <span class="method-label">Teléfono 1</span>
+                                <span class="method-value">924 144 0357</span>
+                            </div>
+                        </a>
+                        <a href="tel:9241012877" class="contacto-method">
+                            <span class="method-icon">📞</span>
+                            <div class="method-details">
+                                <span class="method-label">Teléfono 2</span>
+                                <span class="method-value">924 101 2877</span>
+                            </div>
+                        </a>
+                        <a href="https://wa.me/529241440357" class="contacto-method">
+                            <span class="method-icon">💬</span>
+                            <div class="method-details">
+                                <span class="method-label">WhatsApp</span>
+                                <span class="method-value">Escríbenos</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="contacto-social">
+                        <span class="social-label">Síguenos:</span>
+                        <div class="social-links">
+                            <a href="#" class="social-link">📘 Facebook</a>
+                            <a href="#" class="social-link">📸 Instagram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="images/logo.png" alt="Mandaditos Jeshia" class="footer-logo">
+                    <p class="footer-desc">Tu tiempo vale, nosotros lo hacemos por ti.</p>
+                    <p class="footer-location">📍 Acayucan, Oluta y Soconusco, Veracruz</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#">Compras</a></li>
+                        <li><a href="#">Depósitos</a></li>
+                        <li><a href="#">Envíos</a></li>
+                        <li><a href="#">Medicinas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#cobertura">Cobertura</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Términos</a></li>
+                        <li><a href="#">Privacidad</a></li>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="credits">
+                    <p class="credits-main">&copy; 2026 Mandaditos Jeshia. Todos los derechos reservados.</p>
+                    <p class="credits-developer">
+                        <span class="credits-label">Desarrollado por:</span>
+                        <span class="credits-name">OSCAR OMAR Gómez Peña</span>
+                        <span class="credits-title">EMPRENDEDOR TECNOLÓGICO DIGITAL</span>
+                        <span class="credits-contact">📞 612-107-8075</span>
+                        <span class="credits-email">✉️ oscaromargp@gmail.com | oscar_omargp@hotmail.com | oscar_omargp@yahoo.com.mx</span>
+                        <span class="credits-web">🌐 <a href="https://bit.ly/oscaromargp" target="_blank">bit.ly/oscaromargp</a></span>
+                    </p>
+                    <p class="credits-tech">
+                        <span>🛠️ Creado con <strong>Antigravity</strong> y tecnología de <strong>GitHub</strong></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
