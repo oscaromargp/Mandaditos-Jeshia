@@ -1447,3 +1447,519 @@ a {
         display: none;
     }
 }
+/* ========================================
+   SECCIÓN TRÁMITES - New Styles
+   ======================================== */
+
+.tramites-section {
+    padding: 100px 0;
+    position: relative;
+    background: var(--bg-secondary);
+    overflow: hidden;
+}
+
+.tramites-bg-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at 50% 0%, rgba(249, 115, 22, 0.1) 0%, transparent 50%);
+    pointer-events: none;
+}
+
+.tramites-header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.tramites-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg, var(--primary-400), var(--primary-500));
+    color: #000;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.badge-icon {
+    font-size: 18px;
+}
+
+.tramites-title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+    color: var(--text-primary);
+}
+
+.tramites-subtitle {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.tramites-subtitle strong {
+    color: var(--primary-400);
+}
+
+/* Main Card */
+.tramites-main-card {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 40px;
+    margin-bottom: 40px;
+    border: 2px solid var(--primary-400);
+    background: linear-gradient(135deg, rgba(249, 115, 22, 0.1), rgba(249, 115, 22, 0.02));
+}
+
+.tramites-main-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, var(--primary-400), var(--primary-500));
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    flex-shrink: 0;
+}
+
+.tramites-main-content {
+    flex: 1;
+}
+
+.tramites-main-content h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.tramites-main-content p {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+}
+
+.tramites-cta {
+    flex-shrink: 0;
+}
+
+/* Trámites Grid */
+.tramites-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.tramite-card {
+    padding: 28px;
+    transition: all 0.3s ease;
+}
+
+.tramite-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(249, 115, 22, 0.4);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.tramite-icon {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.tramite-card h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.tramite-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tramite-list li {
+    padding: 8px 0;
+    color: var(--text-secondary);
+    font-size: 14px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.tramite-list li:before {
+    content: '→';
+    color: var(--primary-400);
+    font-weight: bold;
+}
+
+.tramite-list li:last-child {
+    border-bottom: none;
+}
+
+/* Trámites Note */
+.tramites-note {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 32px;
+    background: linear-gradient(135deg, rgba(249, 115, 22, 0.08), rgba(249, 115, 22, 0.02));
+}
+
+.tramites-note .note-icon {
+    font-size: 48px;
+    flex-shrink: 0;
+}
+
+.tramites-note .note-content {
+    flex: 1;
+}
+
+.tramites-note .note-content h4 {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+}
+
+.tramites-note .note-content p {
+    color: var(--text-secondary);
+}
+
+/* ========================================
+   FAQ SECTION - New Styles
+   ======================================== */
+
+.faq-section {
+    padding: 100px 0;
+    background: var(--bg-primary);
+}
+
+.faq-header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.faq-title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.faq-subtitle {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.faq-item {
+    overflow: hidden;
+    padding: 0;
+}
+
+.faq-question {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    color: var(--text-primary);
+    font-family: inherit;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.faq-question-text {
+    flex: 1;
+    padding-right: 16px;
+}
+
+.faq-icon {
+    font-size: 14px;
+    color: var(--primary-400);
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+}
+
+.faq-item.active .faq-icon {
+    transform: rotate(180deg);
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    padding: 0 24px;
+}
+
+.faq-answer p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    padding-bottom: 24px;
+}
+
+.faq-cta {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.faq-cta p {
+    color: var(--text-secondary);
+    margin-bottom: 16px;
+}
+
+/* ========================================
+   TRUST STATS - New Styles
+   ======================================== */
+
+.trust-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 60px;
+    padding-top: 60px;
+    border-top: 1px solid rgba(249, 115, 22, 0.2);
+}
+
+.trust-stat {
+    text-align: center;
+}
+
+.trust-number {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--primary-400);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.trust-label {
+    display: block;
+    color: var(--text-tertiary);
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+/* ========================================
+   WHATSAPP FLOAT - New Styles
+   ======================================== */
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 1000;
+    width: 60px;
+    height: 60px;
+    background: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    animation: pulse-wa 2s infinite;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 30px rgba(37, 211, 102, 0.6);
+}
+
+.whatsapp-icon {
+    font-size: 32px;
+}
+
+@keyframes pulse-wa {
+    0%, 100% {
+        box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+    }
+    50% {
+        box-shadow: 0 4px 30px rgba(37, 211, 102, 0.6), 0 0 0 10px rgba(37, 211, 102, 0.1);
+    }
+}
+
+/* ========================================
+   COTIZACIÓN NOTE - New Styles
+   ======================================== */
+
+.cotizacion-note {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(249, 115, 22, 0.1);
+    border: 1px solid rgba(249, 115, 22, 0.3);
+    border-radius: 12px;
+    padding: 12px 20px;
+    margin-bottom: 24px;
+    max-width: 500px;
+}
+
+.cotizacion-note .note-icon {
+    font-size: 24px;
+}
+
+.cotizacion-note span:last-child {
+    font-size: 14px;
+    color: var(--text-secondary);
+}
+
+.cotizar-badge {
+    display: inline-block;
+    margin-top: 12px;
+    color: var(--primary-400);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Nav CTA */
+.nav-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--primary-400);
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.nav-cta:hover {
+    background: var(--primary-300);
+    transform: translateY(-2px);
+}
+
+/* Contacto WhatsApp */
+.contacto-method.whatsapp {
+    background: linear-gradient(135deg, rgba(37, 211, 102, 0.1), rgba(37, 211, 102, 0.05));
+    border: 1px solid rgba(37, 211, 102, 0.3);
+}
+
+.contacto-method.whatsapp:hover {
+    border-color: #25D366;
+}
+
+/* Contacto Location */
+.contacto-location {
+    text-align: center;
+    padding: 40px;
+}
+
+.location-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.contacto-location h3 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.location-state {
+    color: var(--text-tertiary);
+    margi
+
+
+/* TRAMITES SECTION */
+.tramites-section{padding:100px 0;position:relative;background:var(--bg-secondary);overflow:hidden}
+.tramites-bg-gradient{position:absolute;top:0;left:0;width:100%;height:100%;background:radial-gradient(ellipse at 50% 0%,rgba(249,115,22,0.1) 0%,transparent 50%);pointer-events:none}
+.tramites-header{text-align:center;margin-bottom:48px}
+.tramites-badge{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,var(--primary-400),var(--primary-500));color:#000;padding:8px 20px;border-radius:50px;font-weight:600;font-size:14px;margin-bottom:24px}
+.badge-icon{font-size:18px}
+.tramites-title{font-size:3rem;font-weight:800;margin-bottom:16px;color:var(--text-primary)}
+.tramites-subtitle{font-size:1.25rem;color:var(--text-secondary);max-width:700px;margin:0 auto}
+.tramites-subtitle strong{color:var(--primary-400)}
+.tramites-main-card{display:flex;align-items:center;gap:32px;padding:40px;margin-bottom:40px;border:2px solid var(--primary-400);background:linear-gradient(135deg,rgba(249,115,22,0.1),rgba(249,115,22,0.02))}
+.tramites-main-icon{width:80px;height:80px;background:linear-gradient(135deg,var(--primary-400),var(--primary-500));border-radius:20px;display:flex;align-items:center;justify-content:center;font-size:40px;flex-shrink:0}
+.tramites-main-content{flex:1}
+.tramites-main-content h3{font-size:1.75rem;font-weight:700;margin-bottom:8px}
+.tramites-main-content p{color:var(--text-secondary);font-size:1.1rem}
+.tramites-cta{flex-shrink:0}
+.tramites-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-bottom:40px}
+.tramite-card{padding:28px;transition:all 0.3s ease}
+.tramite-card:hover{transform:translateY(-4px);border-color:rgba(249,115,22,0.4);box-shadow:0 20px 40px rgba(0,0,0,0.3)}
+.tramite-icon{font-size:40px;margin-bottom:16px}
+.tramite-card h4{font-size:1.25rem;font-weight:600;margin-bottom:16px}
+.tramite-list{list-style:none;padding:0;margin:0}
+.tramite-list li{padding:8px 0;color:var(--text-secondary);font-size:14px;border-bottom:1px solid rgba(255,255,255,0.05);display:flex;align-items:center;gap:8px}
+.tramite-list li:before{content:"→";color:var(--primary-400);font-weight:bold}
+.tramite-list li:last-child{border-bottom:none}
+.tramites-note{display:flex;align-items:center;gap:24px;padding:32px;background:linear-gradient(135deg,rgba(249,115,22,0.08),rgba(249,115,22,0.02))}
+.tramites-note .note-icon{font-size:48px;flex-shrink:0}
+.tramites-note .note-content{flex:1}
+.tramites-note .note-content h4{font-size:1.25rem;margin-bottom:8px}
+.tramites-note .note-content p{color:var(--text-secondary)}
+
+/* FAQ SECTION */
+.faq-section{padding:100px 0;background:var(--bg-primary)}
+.faq-header{text-align:center;margin-bottom:48px}
+.faq-title{font-size:3rem;font-weight:800;margin-bottom:16px}
+.faq-subtitle{font-size:1.25rem;color:var(--text-secondary)}
+.faq-container{max-width:800px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+.faq-item{overflow:hidden;padding:0}
+.faq-question{width:100%;display:flex;justify-content:space-between;align-items:center;padding:24px;background:none;border:none;cursor:pointer;text-align:left;color:var(--text-primary);font-family:inherit;font-size:1.1rem;font-weight:600}
+.faq-question-text{flex:1;padding-right:16px}
+.faq-icon{font-size:14px;color:var(--primary-400);transition:transform 0.3s ease;flex-shrink:0}
+.faq-item.active .faq-icon{transform:rotate(180deg)}
+.faq-answer{max-height:0;overflow:hidden;transition:max-height 0.3s ease,padding 0.3s ease;padding:0 24px}
+.faq-answer p{color:var(--text-secondary);line-height:1.8;padding-bottom:24px}
+.faq-cta{text-align:center;margin-top:40px}
+.faq-cta p{color:var(--text-secondary);margin-bottom:16px}
+
+/* TRUST STATS */
+.trust-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:60px;padding-top:60px;border-top:1px solid rgba(249,115,22,0.2)}
+.trust-stat{text-align:center}
+.trust-number{display:block;font-size:2.5rem;font-weight:800;color:var(--primary-400);font-family:"Plus Jakarta Sans",sans-serif}
+.trust-label{display:block;color:var(--text-tertiary);font-size:14px;margin-top:8px}
+
+/* WHATSAPP FLOAT */
+.whatsapp-float{position:fixed;bottom:24px;right:24px;z-index:1000;width:60px;height:60px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,0.4);transition:all 0.3s ease;text-decoration:none;animation:pulse-wa 2s infinite}
+.whatsapp-float:hover{transform:scale(1.1);box-shadow:0 8px 30px rgba(37,211,102,0.6)}
+.whatsapp-icon{font-size:32px}
+@keyframes pulse-wa{0%,100%{box-shadow:0 4px 20px rgba(37,211,102,0.4)}50%{box-shadow:0 4px 30px rgba(37,211,102,0.6),0 0 0 10px rgba(37,211,102,0.1)}}
+
+/* COTIZACION NOTE */
+.cotizacion-note{display:flex;align-items:center;gap:12px;background:rgba(249,115,22,0.1);border:1px solid rgba(249,115,22,0.3);border-radius:12px;padding:12px 20px;margin-bottom:24px;max-width:500px}
+.cotizacion-note .note-icon{font-size:24px}
+.cotizacion-note span:last-child{font-size:14px;color:var(--text-secondary)}
+.cotizar-badge{display:inline-block;margin-top:12px;color:var(--primary-400);font-weight:600;font-size:14px}
+
+/* NAV CTA */
+.nav-cta{display:inline-flex;align-items:center;gap:8px;background:var(--primary-400);color:#000;padding:10px 20px;border-radius:10px;font-weight:600;font-size:14px;transition:all 0.3s ease}
+.nav-cta:hover{background:var(--primary-300);transform:translateY(-2px)}
+.contacto-method.whatsapp{background:linear-gradient(135deg,rgba(37,211,102,0.1),rgba(37,211,102,0.05));border:1px solid rgba(37,211,102,0.3)}
+.contacto-method.whatsapp:hover{border-color:#25D366}
+.contacto-location{text-align:center;padding:40px}
+.location-icon{font-size:48px;margin-bottom:16px}
+.contacto-location h3{font-size:1.5rem;margin-bottom:8px}
+.location-state{color:var(--text-tertiary);margin-top:8px}
+.location-services{display:flex;justify-content:center;gap:16px;margin-top:24px;flex-wrap:wrap}
+.location-services span{background:rgba(249,115,22,0.1);padding:8px 16px;border-radius:20px;font-size:14px;color:var(--text-secondary)}
+.coverage-extra{display:flex;flex-direction:column;gap:12px;margin-top:24px}
+.extra-label{display:flex;align-items:center;gap:8px;color:var(--text-secondary);font-size:14px}
+
+@media(max-width:1024px){.tramites-main-card{flex-direction:column;text-align:center}.tramites-cta{width:100%;justify-content:center}}
+@media(max-width:768px){.tramites-section,.faq-section{padding:60px 0}.tramites-title,.faq-title{font-size:2rem}.tramites-subtitle,.faq-subtitle{font-size:1rem}.tramites-grid{grid-template-columns:1fr}.trust-stats{grid-template-columns:repeat(2,1fr)}.trust-number{font-size:2rem}.tramites-note{flex-direction:column;text-align:center}.faq-question{font-size:1rem;padding:20px}.cotizacion-note{max-width:100%}.nav-cta{display:none}.hero-buttons{flex-direction:column}.hero-buttons a{width:100%;justify-content:center}}
+@media(max-width:480px){.trust-stats{grid-template-columns:1fr 1fr;gap:16px}.tramites-main-icon{width:60px;height:60px;font-size:30px}.tramites-main-content h3{font-size:1.25rem}}
+
