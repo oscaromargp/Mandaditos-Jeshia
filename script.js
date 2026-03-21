@@ -1,5 +1,5 @@
 /**
- * Mandaditos Jeshia - Landing Page Script v4.0.0
+ * Mandaditos Jeshia - Landing Page Script v4.1.0
  * Optimizada para Cierre Rápido
  */
 
@@ -56,7 +56,7 @@ function initMobileMenu() {
     });
 
     const links = navLinks.querySelectorAll('.nav-link');
-    links.forEach(link => {
+    links.forEach(function(link) {
         link.addEventListener('click', function() {
             navLinks.classList.remove('active');
             const spans = toggle.querySelectorAll('span');
@@ -73,35 +73,42 @@ function initMobileMenu() {
 function initCounters() {
     const counters = document.querySelectorAll('.stat-number');
     
-    const counterObserver = new IntersectionObserver(function(entries) {
-        entries.forEach(function(entry) {
-            if (entry.isIntersecting) {
-                const target = parseInt(entry.target.getAttribute('data-target'));
-                animateCounter(entry.target, target);
-                counterObserver.unobserve(entry.target);
+    // Simple animation without IntersectionObserver for better compatibility
+    function animateAllCounters() {
+        counters.forEach(function(counter) {
+            const target = parseInt(counter.getAttribute('data-target'));
+            if (target) {
+                animateCounter(counter, target);
             }
         });
-    }, { threshold: 0.5 });
-
-    counters.forEach(function(counter) {
-        counterObserver.observe(counter);
-    });
+    }
+    
+    // Run after a small delay
+    setTimeout(animateAllCounters, 500);
 }
 
 function animateCounter(element, target) {
-    const duration = 2000;
-    const increment = target / (duration / 16);
-    let current = 0;
+    const duration = 1500;
+    const start = performance.now();
     
-    const timer = setInterval(function() {
-        current += increment;
-        if (current >= target) {
-            element.textContent = target;
-            clearInterval(timer);
+    function update(currentTime) {
+        const elapsed = currentTime - start;
+        const progress = Math.min(elapsed / duration, 1);
+        
+        // Easing function
+        const easeOut = 1 - Math.pow(1 - progress, 3);
+        const current = Math.floor(easeOut * target);
+        
+        element.textContent = current;
+        
+        if (progress < 1) {
+            requestAnimationFrame(update);
         } else {
-            element.textContent = Math.floor(current);
+            element.textContent = target;
         }
-    }, 16);
+    }
+    
+    requestAnimationFrame(update);
 }
 
 /**
@@ -159,7 +166,8 @@ function initSmoothScroll() {
             if (target) {
                 e.preventDefault();
                 
-                const navbarHeight = document.querySelector('.navbar')?.offsetHeight || 0;
+                const navbar = document.querySelector('.navbar');
+                const navbarHeight = navbar ? navbar.offsetHeight : 0;
                 const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - navbarHeight;
                 
                 window.scrollTo({
