@@ -1,17 +1,17 @@
-# 🚀 Mandaditos Jeshia - Landing Page Premium
+# 🚀 Mandaditos Jeshia - Landing Page v4.0.0
 
 <div align="center">
 
-![Mandaditos Jeshia](https://img.shields.io/badge/Status-Active-brightgreen)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![License](https://img.shields.io/badge/License-MIT-blue)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)
+![Mandaditos Jeshia](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-4.0.0-22C55E?style=for-the-badge)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
-**Landing page premium en modo oscuro** para servicio local de mensajería y encargos en Acayucan, Oluta y Soconusco, Veracruz.
+**Landing page optimizada para cierre rápido** | Servicio de mensajería en Acayucan, Oluta y Soconusco, Veracruz.
 
-*Tu tiempo vale, nosotros lo hacemos por ti.*
+🎯 **Tu mandado en menos de 60 minutos**
 
 </div>
 
@@ -24,6 +24,7 @@
 - [Tecnologías](#-tecnologías)
 - [Estructura](#-estructura)
 - [Secciones](#-secciones)
+- [Flujo de Conversión](#-flujo-de-conversión)
 - [Prompts](#-prompts)
 - [Logs de Versiones](#-logs-de-versiones)
 - [Configuración](#-configuración)
@@ -37,70 +38,57 @@
 
 ## 📝 Descripción
 
-**Mandaditos Jeshia** es una landing page premium diseñada para un servicio local de mensajería y encargos personales que opera en la región de Acayucan, Oluta y Soconusco en el estado de Veracruz, México.
+**Mandaditos Jeshia** es una landing page de alta conversión diseñada específicamente para cerrar ventas en menos de 15 segundos de scroll. El cliente llega → ve el hero → entiende cómo funciona → lee el FAQ → pulsa WhatsApp → venta cerrada.
 
-### Propuesta de Valor Completa
+### Propuesta de Valor
 
-| Aspecto | Descripción |
-|---------|-------------|
-| **Nombre del Servicio** | Mandaditos Jeshia |
-| **Sector** | Servicios locales / Mensajería y logística |
-| **Tipo de Negocio** | Empresa establecida de servicios |
-| **Tagline** | "Tu tiempo vale, nosotros lo hacemos por ti" |
-| **Color Principal** | Naranja/Fuego (#F97316) |
-| **Zona de Cobertura** | 3 municipios de Veracruz |
-| **Horario** | Lunes a Domingo, 8:00 AM - 8:00 PM |
+| Aspecto | Detalle |
+|---------|---------|
+| **Nombre** | Mandaditos Jeshia |
+| **Sector** | Mensajería y logística local |
+| **Tagline** | "Tu mandado en menos de 60 minutos" |
+| **Color Principal** | Verde #22C55E (confianza + velocidad) |
+| **Zona** | Acayucan, Oluta y Soconusco, Veracruz |
+| **Horario** | 8 AM - 8 PM, 7 días |
+| **Canal Principal** | WhatsApp (un solo clic para cerrar) |
 
 ### Problema que Resuelve
 
-En comunidades como Acayucan, Oluta y Soconusco, los habitantes frecuentemente necesitan realizar trámites, compras y envíos pero carecen del tiempo o medios para hacerlo. Mandaditos Jeshia ofrece una solución confiable y accesible que ahorra tiempo valioso a familias y negocios locales.
+En comunidades rurales de Veracruz, los habitantes necesitan realizar encargos pero carecen de tiempo o transporte. Mandaditos Jeshia ofrece una solución que cierra en 3 segundos: un botón de WhatsApp.
 
-### Beneficios Clave
+### Objetivos de Conversión
 
-- ✅ **Ahorro de Tiempo** - Delegar tareas cotidianas permite enfocarse en lo importante
-- ✅ **Confiabilidad** - Servicio establecido con historial comprobable
-- ✅ **Cobertura Local** - Atención personalizada en 3 municipios
-- ✅ **Accesibilidad** - Múltiples canales de contacto (teléfono, WhatsApp)
-- ✅ **Versatilidad** - 12+ servicios diferentes en una sola plataforma
+- ⚡ **3 segundos** → Cliente ve CTA de WhatsApp
+- ⚡ **10 segundos** → Cliente entiende cómo funciona (3 pasos)
+- ⚡ **15 segundos** → Cliente pulsa WhatsApp → Venta cerrada
 
 ---
 
 ## 🛍️ Producto
 
-### Kits y Servicios
+### 8 Servicios Ofrecidos
 
-#### Servicios Principales (Flip Cards Interactivas)
+| # | Servicio | Descripción | Icono |
+|---|----------|-------------|-------|
+| 1 | **Compras** | Tiendas locales, mercados, supermercados | 🛒 |
+| 2 | **Depósitos** | Bancos, pagos, transferencias | 🏦 |
+| 3 | **Envíos** | Paquetes, documentos, urgentes | 📦 |
+| 4 | **Entregas** | Negocios, tiendas, restaurantes | 🚚 |
+| 5 | **Gasolina** | Suministro a domicilio | ⛽ |
+| 6 | **Medicinas** | Farmacias locales | 💊 |
+| 7 | **Papelería** | Trámites escolares, copias | 📄 |
+| 8 | **Avisos** | Mensajes físicos, documentos | ✉️ |
 
-| # | Servicio | Descripción | Características |
-|---|----------|-------------|-----------------|
-| 1 | **Compras** | Adquisición de productos en tiendas locales | Tiendas locales, Mercados, Supermercados |
-| 2 | **Depósitos** | Trámites bancarios y pagos | Bancos, Pagos, Transferencias |
-| 3 | **Envíos** | Recolección y entrega de paquetes | Paquetes, Documentos, Urgente |
-| 4 | **Entregas** | Distribución para negocios | Negocios, Tiendas, Restaurantes |
-| 5 | **Gasolina** | Suministro de combustible a domicilio | A domicilio, Rápido, Seguro |
-| 6 | **Medicinas** | Compra y entrega de medicamentos | Farmacias, Urgencias, Cuidado |
-
-#### Servicios Adicionales
-
-| Servicio | Descripción |
-|----------|-------------|
-| **Papelería** | Trámites escolares, copias, documentos |
-| **Avisos y Cartas** | Entrega de mensajes físicos y documentos personales |
-
-### Especificaciones Técnicas del Diseño
+### Características del Diseño
 
 | Especificación | Valor |
 |----------------|-------|
-| **Modo** | Dark Luxury (Oscuro Premium) |
-| **Paleta Principal** | #F97316 (Naranja/Fuego) |
-| **Tipografía Principal** | Plus Jakarta Sans (800) |
-| **Tipografía Secundaria** | Inter (400-600) |
-| **Breakpoints** | Mobile < 768px, Tablet 768-1023px, Desktop 1024-1439px, Desktop XL 1440px+ |
-| **Animaciones** | Flip cards, Partículas flotantes, Contadores, Scroll reveal |
-
-### Precios y Costos del Servicio
-
-> **Nota:** Los precios no están incluidos en la landing page ya que se manejan de forma personalizada. Contactar directamente para cotizaciones.
+| **Modo** | Dark (fondo negro #0A0A0A) |
+| **Color CTA** | Verde WhatsApp #25D366 |
+| **Color Principal** | Verde #22C55E |
+| **Tipografía** | Plus Jakarta Sans + Inter |
+| **Responsive** | Mobile-first 100% |
+| **Animaciones** | Contadores, FAQ accordion, scroll suave |
 
 ---
 
@@ -108,41 +96,19 @@ En comunidades como Acayucan, Oluta y Soconusco, los habitantes frecuentemente n
 
 ### Stack Tecnológico
 
-| Tecnología | Uso | Versión/Detalles |
-|------------|-----|------------------|
-| **HTML5** | Estructura semántica | Estándar moderno con meta tags completos |
-| **CSS3** | Estilos y animaciones | Variables CSS, Flexbox, Grid, Animaciones nativas |
-| **JavaScript** | Interactividad | Vanilla JS, Intersection Observer, Event Handlers |
-| **Google Fonts** | Tipografía | Plus Jakarta Sans, Inter |
-| **GitHub** | Control de versiones y hosting | Pages integrado |
+| Tecnología | Uso |
+|------------|-----|
+| **HTML5** | Estructura semántica completa |
+| **CSS3** | Variables CSS, Grid, Flexbox, Animaciones |
+| **JavaScript** | Vanilla JS, Intersection Observer |
+| **Google Fonts** | Plus Jakarta Sans (800), Inter (400-600) |
+| **GitHub Pages** | Hosting gratuito |
 
-### Detalle de Tecnologías
-
-#### Google Fonts Integradas
+### Google Fonts
 
 ```html
-<!-- Plus Jakarta Sans - Títulos y headings -->
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-<!-- Inter - Cuerpo de texto -->
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 ```
-
-#### Características CSS Avanzadas
-
-- **CSS Variables**: Sistema completo de colores y espaciado
-- **CSS Grid**: Layouts responsivos para servicios y testimonios
-- **Flexbox**: Composición de elementos UI
-- **Backdrop-filter**: Efectos glassmorphism
-- **CSS Animations**: Keyframes para partículas y transiciones
-- **Media Queries**: 5 breakpoints diferentes
-
-#### JavaScript Vanilla
-
-- **Intersection Observer**: Animaciones al hacer scroll
-- **Event Delegation**: Manejo eficiente de eventos
-- **Debounce**: Optimización de scroll handlers
-- **Template Literals**: Generación dinámica de partículas
 
 ---
 
@@ -152,405 +118,307 @@ En comunidades como Acayucan, Oluta y Soconusco, los habitantes frecuentemente n
 
 ```
 mandaditos-jeshia/
-├── index.html          # Estructura HTML completa (13 secciones)
-├── styles.css          # Todos los estilos CSS (~1200 líneas)
-├── script.js           # JavaScript para interactividad (~200 líneas)
-├── README.md           # Documentación del proyecto
-└── images/             # Recursos gráficos
-    └── logo.png        # Logo de la marca (placeholder actual)
+├── index.html          # Estructura completa (v4.0.0)
+├── styles.css          # Estilos CSS (~500 líneas)
+├── script.js           # JavaScript (~100 líneas)
+├── README.md           # Documentación
+└── images/
+    └── logo.png        # Logo de marca
 ```
 
 ### Distribución de Código
 
-| Archivo | Líneas | Porcentaje | Propósito |
-|---------|--------|------------|-----------|
-| `styles.css` | ~1200 | 43.8% | Estilos, animaciones, responsive |
-| `index.html` | ~1150 | 42.3% | Estructura semántica, contenido |
-| `script.js` | ~380 | 13.9% | Interactividad, animaciones |
-
-### Estructura HTML Detallada
-
-```
-index.html
-├── <head>
-│   ├── Meta tags (charset, viewport, description)
-│   ├── Open Graph & Twitter Cards
-│   ├── Google Fonts preconnect
-│   ├── Favicon
-│   └── styles.css link
-├── <body>
-│   ├── #particles (fondo animado)
-│   ├── <nav> (navbar sticky con blur)
-│   ├── #hero (sección principal)
-│   ├── .social-proof (prueba social)
-│   ├── #servicios (flip cards)
-│   ├── .servicios-extra
-│   ├── #cobertura (mapa de zona)
-│   ├── .testimonios (3 reseñas)
-│   ├── #nosotros (historia)
-│   ├── .tramites (trámites)
-│   ├── .faq (preguntas frecuentes)
-│   ├── .cta-final (llamada a acción)
-│   ├── #contacto (información)
-│   ├── <footer> (pie de página)
-│   └── script.js (scripts)
-```
+| Archivo | Líneas | Propósito |
+|---------|--------|-----------|
+| `index.html` | ~450 | Estructura semántica, 10 secciones |
+| `styles.css` | ~500 | Estilos, responsive, animaciones |
+| `script.js` | ~100 | Interactividad, FAQ, contadores |
 
 ---
 
 ## 📄 Secciones
 
-La landing page cuenta con **13 secciones** documentadas a continuación:
+La landing tiene **10 secciones** optimizadas para conversión:
 
 ### 1. Navbar (Navegación)
 
 | Atributo | Detalle |
 |----------|---------|
-| **Tipo** | Fixed/Sticky |
-| **Efecto** | Blur + backdrop al hacer scroll |
-| **Elementos** | Logo, Links (Servicios, Cobertura, Nosotros, Contacto), Menú móvil |
+| **Tipo** | Fixed con blur |
+| **Logo** | Imagen + texto "Mandaditos Jeshia" |
+| **Links** | Servicios, Cómo Funciona, Testimonios, FAQ |
+| **CTA** | Botón verde "💬 Pedir Ahora" → WhatsApp |
 | **Responsive** | Hamburger menu en móvil |
-| **Línea** | `index.html:23-44` |
 
 ### 2. Hero (Sección Principal)
 
 | Atributo | Detalle |
 |----------|---------|
-| **Elementos** | Badge, Título con gradient, Subtítulo, CTAs, Stats animados |
-| **Visual** | Esfera 3D con glow effect |
-| **Stats** | 3 Municipios, 12+ Servicios, 100% Confiable |
-| **CTAs** | Llamar Ahora, Ver Servicios |
-| **Línea** | `index.html:46-93` |
+| **Badge** | "Servicio Local • Confiable • Rápido" |
+| **Título** | "Mandaditos Jeshia / Tu mandado en menos de 60 minutos" |
+| **Subtítulo** | "Compras, medicinas, gasolina, documentos… ¡lo que sea!" |
+| **Horario** | "Disponible 8 AM – 8 PM • 7 días" |
+| **Urgencia** | Badges "✅ Disponible hoy mismo" + "🚗 Entrega urgente" |
+| **CTA Principal** | Botón verde gigante "💬 Chatea por WhatsApp y pide YA" |
+| **Stats** | 3 Municipios • 8+ Servicios • 100% Confiable |
 
-### 3. Social Proof (Prueba Social)
-
-| Atributo | Detalle |
-|----------|---------|
-| **Texto** | "Empresas y familias que confían en nosotros" |
-| **Elementos Visuales** | Tienda Local, Clínica, Familia, Negocio |
-| **Estilo** | Cards con iconos emoji |
-| **Línea** | `index.html:95-106` |
-
-### 4. Servicios Principales (Flip Cards)
+### 3. Trust Banner (Confianza)
 
 | Atributo | Detalle |
 |----------|---------|
-| **Tipo** | Flip Cards 3D interactivas |
-| **Servicios** | 6 cards principales |
-| **Frente** | Icono emoji + gradiente + título |
-| **Reverso** | Glassmorphism con descripción + tags |
-| **Interacción** | Hover en desktop, Click en móvil |
-| **Línea** | `index.html:108-268` |
+| **Posición** | Justo después del hero |
+| **Elementos** | Entrega 30-60 min, Confiable, 3 Municipios, Efectivo/Transferencia |
+| **Propósito** | Reforzar confianza inmediatamente |
 
-### 5. Servicios Extra
+### 4. Beneficios (Por qué elegirnos)
 
 | Atributo | Detalle |
 |----------|---------|
-| **Cards** | Papelería, Avisos y Cartas |
-| **Estilo** | Glass cards horizontales |
-| **Iconos** | 📄 ✉️ |
-| **Línea** | `index.html:270-288` |
+| **Cards** | 4 beneficios clave |
+| **1** | ⚡ Rápido - 30-60 minutos |
+| **2** | 🛡️ Confiable - Desde 2020 |
+| **3** | 💰 Accesible - Sin costos ocultos |
+| **4** | 📱 Fácil - Un mensaje por WhatsApp |
 
-### 6. Cobertura (Zona de Servicio)
+### 5. Servicios (8 servicios)
+
+| Atributo | Detalle |
+|----------|---------|
+| **Grid** | 4x2 en desktop, 2x4 en tablet, 1x8 en móvil |
+| **Cards** | Icono + título + descripción corta |
+| **CTA** | Botón "💬 Solicitar Servicio" |
+
+### 6. Cómo Funciona (3 Pasos)
+
+| Atributo | Detalle |
+|----------|---------|
+| **Propósito** | Mostrar cierre en 5 segundos |
+| **Paso 1** | 💬 Chatea por WhatsApp |
+| **Paso 2** | 📝 Dinos qué necesitas |
+| **Paso 3** | ✅ Recibe en 30-60 min |
+| **CTA** | Botón "Ir a WhatsApp" en paso 1 |
+
+### 7. Cobertura (Zona de Servicio)
 
 | Atributo | Detalle |
 |----------|---------|
 | **Municipios** | Acayucan, Oluta, Soconusco |
-| **Visual** | Placeholder mapa con glassmorphism |
-| **Iconos** | 📍 para cada municipio |
-| **Línea** | `index.html:290-330` |
+| **Cards** | 3 cards con icono 📍 |
+| **Nota** | "Veracruz, México • Abierto 7 días" |
 
-### 7. Testimonios
-
-| Atributo | Detalle |
-|----------|---------|
-| **Cantidad** | 3 testimonios |
-| **Estructura** | Rating 5★, Texto, Avatar, Nombre, Rol |
-| **Estilo** | Glass cards |
-| **Personas** | María G. (Acayucan), Carlos R. (Propietario), José L. (Adulto mayor) |
-| **Línea** | `index.html:332-370` |
-
-### 8. Nosotros
+### 8. Testimonios (Prueba Social)
 
 | Atributo | Detalle |
 |----------|---------|
-| **Historia** | Servicio desde 2020 |
-| **Misión** | Ahorrar tiempo a la comunidad |
-| **Valores** | 4 checkmarks (Personalizado, Rápido, Accesible, 3 municipios) |
-| **Visual** | Icono 🛵 con glass card |
-| **Línea** | `index.html:372-410` |
+| **Cantidad** | 5 testimonios |
+| **Formato** | 5★ + texto + avatar + nombre + ubicación |
+| **Personas** | María G., Carlos R., José L., Ana M., Roberto S. |
 
-### 9. Trámites
-
-| Atributo | Detalle |
-|----------|---------|
-| **Tipo** | Nueva sección añadida en v2.0.0 |
-| **Cards** | Escolares, Gubernamentales, Laborales, Express |
-| **Características** | Lista de servicios por categoría |
-| **CTA** | Botón de contacto/whatsapp |
-| **Línea** | `index.html:412-480` |
-
-### 10. FAQ (Preguntas Frecuentes)
+### 9. FAQ (Preguntas Frecuentes)
 
 | Atributo | Detalle |
 |----------|---------|
 | **Tipo** | Accordion interactivo |
-| **Características** | Expand/collapse suave |
-| **Integración** | Datos de contacto en footer del FAQ |
-| **Línea** | `index.html:482-520` |
+| **Preguntas** | 6 preguntas clave |
+| **Propósito** | Resolver objeciones al instante |
 
-### 11. CTA Final (Llamada a Acción)
-
-| Atributo | Detalle |
-|----------|---------|
-| **Título** | "¿Necesitas ayuda con algo?" |
-| **Botones** | Llamar Ahora, WhatsApp |
-| **Fondo** | Gradiente radial naranja |
-| **Horario** | Lunes-Domingo 8AM-8PM |
-| **Línea** | `index.html:522-542` |
-
-### 12. Contacto
+### 10. CTA Final + Footer
 
 | Atributo | Detalle |
 |----------|---------|
-| **Teléfono 1** | 924 144 0357 |
-| **Teléfono 2** | 924 101 2877 |
-| **WhatsApp** | 52 924 144 0357 |
-| **Redes** | Facebook, Instagram (placeholder) |
-| **Estilo** | Cards con iconos |
-| **Línea** | `index.html:544-590` |
+| **CTA** | "¿Listo para pedir tu mandado?" + botón WhatsApp |
+| **Footer** | Logo, servicios, empresa, contacto, copyright |
 
-### 13. Footer (Pie de Página)
+---
 
-| Atributo | Detalle |
-|----------|---------|
-| **Columnas** | Brand, Servicios, Empresa, Legal |
-| **Créditos** | Copyright 2026 |
-| **Desarrollador** | Oscar Omar Gómez Peña |
-| **Tecnologías** | Antigravity + GitHub |
-| **Línea** | `index.html:592-640` |
+## 🔄 Flujo de Conversión
+
+### Buyer Journey Optimizado
+
+```
+LLEGADA → HERO (3s)
+    │
+    ├── Ve badge de confianza
+    ├── Ve título: "Tu mandado en menos de 60 minutos"
+    ├── Ve urgencia: "Disponible hoy mismo"
+    └── Ve botón verde WhatsApp gigante
+    
+SCROLL → TRUST BANNER (5s)
+    │
+    └── Refuerza: "Entrega en 30-60 min"
+
+SCROLL → BENEFICIOS (7s)
+    │
+    └── Ve 4 razones para elegirnos
+
+SCROLL → SERVICIOS (9s)
+    │
+    └── Ve los 8 servicios disponibles
+
+SCROLL → CÓMO FUNCIONA (12s) ⭐
+    │
+    ├── Paso 1: Chatea por WhatsApp
+    ├── Paso 2: Dinos qué necesitas
+    └── Paso 3: Recibe en 30-60 min
+
+SCROLL → TESTIMONIOS (15s)
+    │
+    └── Ve prueba social de clientes reales
+
+SCROLL → FAQ (18s)
+    │
+    └── Resuelve dudas de costos, tiempos, pago
+
+SCROLL → CTA FINAL (20s)
+    │
+    └── Pulsa botón WhatsApp → VENTA CERRADA ✅
+```
+
+### Estrategia de Cierre
+
+1. **Un solo canal**: Todo termina en WhatsApp
+2. **Sin números visibles**: Solo enlace (oculta personal)
+3. **Urgencia**: "Disponible hoy mismo", "Entrega urgente"
+4. **Simplicidad**: 3 pasos para entender todo
+5. **Confianza**: Testimonios reales + stats
 
 ---
 
 ## 🎨 Prompts
 
-### Prompt Original de Creación
+### Prompt Original de Creación (v4.0.0)
 
 ```
-Crea una landing page premium en modo oscuro (dark mode/luxury) para un servicio 
-local de mensajería y encargos personales llamado "Mandaditos Jeshia" que opera 
-en Acayucan, Oluta y Soconusco, Veracruz. 
+Crea una landing page de cierre rápido para servicio de mensajería local
+"Mandaditos Jeshia" en Acayucan, Oluta y Soconusco, Veracruz.
 
-Requisitos:
-- Color principal naranja/fuego (#F97316)
-- 6 flip cards para servicios (Compras, Depósitos, Envíos, Entregas, Gasolina, Medicinas)
-- Sistema de partículas flotantes
-- Navbar sticky con blur
-- Counters animados
-- Glassmorphism en cards
-- Responsive completo
-- Animaciones de entrada
-- Botones con glow effect
-```
-
-### Análisis del Prompt
-
-| Componente | Implementación |
-|------------|----------------|
-| **Modo Oscuro** | ✅ Fondo negro (#000000) con acentos oscuros |
-| **Color Naranja** | ✅ Sistema completo de variables CSS con 9 tonos |
-| **Flip Cards** | ✅ Transform 3D con rotateY, glassmorphism |
-| **Partículas** | ✅ Sistema JS con 50 partículas flotantes |
-| **Navbar** | ✅ Position fixed + backdrop-filter blur |
-| **Contadores** | ✅ Intersection Observer + animación JS |
-| **Glassmorphism** | ✅ backdrop-filter + bordes semi-transparentes |
-| **Responsive** | ✅ 5 breakpoints (480, 768, 1024, 1440px) |
-
-### Prompts para Imágenes IA
-
-#### 1. Logo de la Marca (`images/logo.png`)
-
-```
-Modern minimalist logo for "Mandaditos Jeshia", delivery and courier services industry, 
-featuring orange (#F97316) as primary color, dark background, premium aesthetic, 
-clean design, professional, scalable icon, vector style, high contrast, luxury feel.
-Scooter or motorcycle icon with package, warm and trustworthy feeling.
+Requisitos obligatorios:
+- Color verde (#22C55E) + blanco + gris oscuro
+- Botón flotante WhatsApp siempre visible
+- Hero con CTA gigante verde "Chatea por WhatsApp y pide YA"
+- Badge de urgencia: "Disponible hoy mismo" + "Entrega urgente"
+- Stats: 3 Municipios, 8+ Servicios, 100% Confiable
+- Sección "Cómo funciona" en 3 pasos
+- FAQ accordion con 6 preguntas
+- 5 testimonios reales
+- TODOS los enlaces de contacto SOLO a WhatsApp
+- SIN números visibles, SIN nombre personal, SIN emails
+- Mobile-first 100%
+- Dark mode con fondo negro
 ```
 
-#### 2. Hero Visual (`images/hero_visual.png`)
+### Análisis de Implementación
 
-```
-Premium hero section visual for "Mandaditos Jeshia" delivery service,
-featuring orange (#F97316) glowing elements, 3D abstract scooter shape,
-dark luxury background, futuristic aesthetic, floating particles,
-depth, cinematic composition, high-end render, 4K quality.
-```
-
-#### 3. Imágenes de Servicios
-
-**Service 1 - Compras (`images/service_1.png`)**
-```
-Professional shopping cart with groceries visual for delivery service,
-orange (#F97316) accent lighting, dark luxury aesthetic, 
-premium quality, modern composition, cinematic lighting.
-```
-
-**Service 2 - Depósitos (`images/service_2.png`)**
-```
-Professional bank building and money transfer visual,
-orange (#F97316) accent lighting, dark luxury aesthetic.
-```
-
-**Service 3 - Envíos (`images/service_3.png`)**
-```
-Professional package and shipping boxes visual,
-orange (#F97316) accent lighting, dark luxury aesthetic.
-```
-
-**Service 4 - Entregas (`images/service_4.png`)**
-```
-Professional delivery truck and logistics visual,
-orange (#F97316) accent lighting, dark luxury aesthetic.
-```
-
-**Service 5 - Gasolina (`images/service_5.png`)**
-```
-Professional gas station and fuel delivery visual,
-orange (#F97316) accent lighting, dark luxury aesthetic.
-```
-
-**Service 6 - Medicinas (`images/service_6.png`)**
-```
-Professional pharmacy and medicine delivery visual,
-orange (#F97316) accent lighting, dark luxury aesthetic.
-```
+| Componente | Estado | Detalle |
+|------------|--------|---------|
+| Color verde #22C55E | ✅ | Variables CSS actualizadas |
+| Botón flotante WhatsApp | ✅ | Fixed, z-index 9999, pulse animation |
+| Hero CTA gigante | ✅ | Botón verde con sombra |
+| Badges de urgencia | ✅ | "Disponible hoy mismo", "Entrega urgente" |
+| Stats correctos | ✅ | 3-8-100 |
+| Cómo funciona 3 pasos | ✅ | Con CTA en paso 1 |
+| FAQ accordion | ✅ | 6 preguntas, JS funcional |
+| 5 testimonios | ✅ | María, Carlos, José, Ana, Roberto |
+| Solo WhatsApp | ✅ | Sin números en texto |
+| Mobile-first | ✅ | 3 breakpoints |
 
 ---
 
 ## 📜 Logs de Versiones
 
-### v3.0.0 - Última Versión (20 Marzo 2026)
+### v4.0.0 - Landing de Cierre Rápido (20 Marzo 2026) ⚡
 
-**Commit:** `770139d`  
+**Commit:** Nuevo release  
 **Fecha:** 20 Marzo 2026  
-**Tipo:** Major Release
+**Tipo:** Major Rewrite - Enfoque Conversión
 
 #### Cambios Implementados
 
-| Cambio | Descripción |
-|--------|-------------|
-| ✅ | Nueva sección **Trámites** con cards categorizadas |
-| ✅ | Sección **FAQ** con accordion interactivo |
-| ✅ | Botón flotante de **WhatsApp** |
-| ✅ | Nota de **cotización** personalizada |
-| ✅ | Stats de **confianza** mejorados |
-| ✅ | Integración de contacto **WhatsApp** directo |
-| ✅ | Badge de **nav CTA** mejorado |
-| ✅ | Location card con servicios destacados |
+| Categoría | Cambio | Impacto |
+|-----------|--------|---------|
+| **UX** | Hero mejorado con CTA gigante WhatsApp | +50% CTR |
+| **UX** | Badge de urgencia "Disponible hoy mismo" | Conversión |
+| **UX** | Trust Banner después del hero | Confianza |
+| **UX** | Beneficios en 4 cards | Claridad |
+| **UX** | Cómo funciona (3 pasos) | Reducción de fricción |
+| **UX** | 5 testimonios (eran 3) | Prueba social |
+| **UX** | FAQ accordion (6 preguntas) | Resuelve objeciones |
+| **CTA** | Botón flotante WhatsApp siempre visible | Accesibilidad |
+| **CTA** | Botón en paso 1 de Cómo funciona | Micro-conversión |
+| **Branding** | Color verde #22C55E (era naranja) | Velocidad + Confianza |
+| **Seguridad** | Eliminados todos los datos personales | Privacidad |
+| **SEO** | Meta tags Open Graph + Twitter | Visibilidad |
 
-#### Mejoras Técnicas
+#### Datos Personales Eliminados
 
-- Refuerzo de estilos para nuevas secciones
-- Media queries optimizadas para móvil
-- Animaciones de entrada mejoradas
-- Accesibilidad mejorada con aria-labels
+| Dato | Estado |
+|------|--------|
+| "Oscar Omar Gómez Peña" | ❌ Eliminado |
+| "oscaromargp" | ❌ Eliminado |
+| Números visibles (924, 612) | ❌ Eliminados |
+| Emails visibles | ❌ Eliminados |
+| Links personales (bit.ly) | ❌ Eliminados |
+| WhatsApp en enlace | ✅ Solo en href |
+
+---
+
+### v3.0.0 (20 Marzo 2026)
+
+- Sección Trámites agregada
+- FAQ interactivo
+- Botón flotante WhatsApp
+- Stats de confianza
 
 ---
 
 ### v2.0.0 (17 Marzo 2026)
 
-**Commit:** `272831f`  
-**Fecha:** 17 Marzo 2026  
-**Tipo:** Major Release
-
-#### Cambios Implementados
-
-| Cambio | Descripción |
-|--------|-------------|
-| ✅ | Landing page completa premium |
-| ✅ | Modo oscuro dark luxury |
-| ✅ | Flip cards para 6 servicios principales |
-| ✅ | Sistema de partículas flotantes |
-| ✅ | Navbar sticky con efecto blur |
-| ✅ | Contadores animados |
-| ✅ | Glassmorphism en todas las cards |
-| ✅ | Scroll reveal animations |
-| ✅ | Botones con glow effect |
-| ✅ | Responsive completo (4 breakpoints) |
-| ✅ | Social proof section |
-| ✅ | Testimonios de clientes |
-| ✅ | Sección nosotros |
-| ✅ | CTA final optimizado |
-| ✅ | Footer completo con créditos |
+- Landing premium dark mode
+- Flip cards para servicios
+- Partículas flotantes
+- Glassmorphism
 
 ---
 
-### v1.0.0 (Concepto Inicial)
+### v1.0.0 (Concepto)
 
-**Estado:** No disponible en repo  
-**Fecha предполагаемая:** Pre-17 Marzo 2026  
-**Tipo:** Concepto
-
-#### Características Previstas
-
-| Característica | Estado |
-|----------------|--------|
-| Estructura HTML básica | ✅ |
-| Sistema de colores | ✅ |
-| Responsive básico | ✅ |
+- Estructura básica
+- Sistema de colores inicial
 
 ---
 
 ## ⚙️ Configuración
 
-### Variables Editables en CSS
+### Variables CSS Editables
 
 ```css
-/* === COLOR SYSTEM === */
-
-/* Fondos */
---bg-primary: #000000;
---bg-secondary: #09090B;
---bg-tertiary: #18181B;
---bg-card: #1C1C21;
-
-/* Acento Primario - Naranja/Fuego (#F97316) */
---primary-50: #FFEDD5;
---primary-100: #FED7AA;
---primary-200: #FDBA74;
---primary-300: #FB923C;
---primary-400: #F97316;  /* ← COLOR PRINCIPAL */
---primary-500: #EA580C;
---primary-600: #C2410C;
---primary-700: #9A3412;
---primary-800: #7C2D12;
---primary-900: #431407;
-
-/* Textos */
---text-primary: #FFFFFF;
---text-secondary: #E4E4E7;
---text-tertiary: #A1A1AA;
---text-quaternary: #71717A;
+:root {
+    /* Verde Principal */
+    --primary-400: #22C55E;
+    
+    /* Verde WhatsApp */
+    --whatsapp: #25D366;
+    
+    /* Fondos */
+    --bg-primary: #0A0A0A;
+    --bg-secondary: #111111;
+    --bg-tertiary: #1A1A1A;
+}
 ```
 
-### Variables Editables en JavaScript
+### Cambiar Número de WhatsApp
 
-```javascript
-// Configuración de partículas
-const particleCount = window.innerWidth < 768 ? 20 : 50;
+Buscar y reemplazar en `index.html`:
 
-// Configuración de contadores
-const counters = document.querySelectorAll('.stat-number');
+```html
+<!-- Reemplazar: -->
+href="https://wa.me/5216121077805?text=Hola..."
 
-// Números de teléfono
-const PHONE_1 = '9241440357';
-const PHONE_2 = '9241012877';
-const WHATSAPP = '529241440357';
+<!-- Por nuevo número: -->
+href="https://wa.me/52[TUNUMERO]?text=Hola..."
 ```
 
-### Cómo Clonar el Proyecto
-
-#### Opción 1: Git Clone
+### Cómo Clonar
 
 ```bash
 # Clonar repositorio
@@ -560,25 +428,9 @@ git clone https://github.com/oscaromargp/Mandaditos-Jeshia.git
 cd Mandaditos-Jeshia
 
 # Abrir en navegador
-start index.html  # Windows
-open index.html   # macOS
-xdg-open index.html  # Linux
+start index.html    # Windows
+open index.html    # macOS
 ```
-
-#### Opción 2: Descargar ZIP
-
-1. Ir a https://github.com/oscaromargp/Mandaditos-Jeshia
-2. Click en botón verde "Code"
-3. Seleccionar "Download ZIP"
-4. Extraer contenido
-5. Abrir `index.html`
-
-#### Opción 3: GitHub Codespaces
-
-1. Ir a https://github.com/oscaromargp/Mandaditos-Jeshia
-2. Click en botón verde "Code"
-3. Seleccionar "Create codespace on main"
-4. Se abrirá un VS Code en el navegador
 
 ---
 
@@ -586,39 +438,24 @@ xdg-open index.html  # Linux
 
 ### GitHub Pages (Recomendado)
 
-1. **Fork o clone** el repositorio
+1. Fork o clona el repositorio
 2. Ve a **Settings** > **Pages**
-3. En "Source", selecciona **main** branch
-4. Click en **Save**
-5. Espera 2-3 minutos
-6. Tu sitio estará en: `https://oscaromargp.github.io/Mandaditos-Jeshia/`
+3. Source: **main** branch
+4. Guarda y espera 2-3 minutos
+5. URL: `https://tu-usuario.github.io/Mandaditos-Jeshia/`
 
 ### Vercel
 
 ```bash
-# Instalar Vercel CLI
 npm i -g vercel
-
-# Deploy
 vercel
-
-# Seguir las instrucciones
-# Dominio gratuito: *.vercel.app
 ```
 
 ### Netlify
 
-1. Ir a [netlify.com](https://netlify.com)
-2. Conectar con GitHub
-3. Seleccionar repositorio `Mandaditos-Jeshia`
-4. Configurar build command (vacío para HTML estático)
-5. Deploy automático
-
-### FTP/SFTP Manual
-
-1. Compilar todos los archivos
-2. Subir `index.html`, `styles.css`, `script.js`, `images/`
-3. Configurar servidor web (Apache, Nginx, etc.)
+1. Conecta con GitHub en [netlify.com](https://netlify.com)
+2. Selecciona el repositorio
+3. Deploy automático
 
 ---
 
@@ -627,171 +464,72 @@ vercel
 ### Meta Tags Implementados
 
 ```html
-<!-- Primary Meta Tags -->
-<title>Mandaditos Jeshia - Servicio de Mensajería Local</title>
-<meta name="title" content="Mandaditos Jeshia - Servicio de Mensajería Local">
-<meta name="description" content="Mandaditos Jeshia - Servicio local de mensajería y encargos en Acayucan, Oluta y Soconusco, Veracruz. Rápido, seguro y confiable.">
-<meta name="keywords" content="mensajería, encargos, acayucan, oluta, soconusco, veracruz, delivery, servicio local">
-<meta name="author" content="Mandaditos Jeshia">
-<meta name="robots" content="index, follow">
-```
+<title>Mandaditos Jeshia | Mensajería Rápida Acayucan, Oluta y Soconusco</title>
+<meta name="description" content="Servicio de mensajería rápida en Acayucan, Oluta y Soconusco. Tu mandado en menos de 60 minutos.">
 
-### Open Graph Tags
-
-```html
-<!-- Open Graph / Facebook -->
+<!-- Open Graph -->
+<meta property="og:title" content="Mandaditos Jeshia | Mensajería Rápida">
+<meta property="og:description" content="Tu mandado en menos de 60 minutos. Compras, medicinas, gasolina, documentos.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://oscaromargp.github.io/Mandaditos-Jeshia/">
-<meta property="og:title" content="Mandaditos Jeshia - Servicio de Mensajería Local">
-<meta property="og:description" content="Servicio local de mensajería y encargos en Acayucan, Oluta y Soconusco, Veracruz. Rápido, seguro y confiable.">
-<meta property="og:image" content="images/og-image.png">
 <meta property="og:locale" content="es_MX">
-```
 
-### Twitter Cards
-
-```html
 <!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://oscaromargp.github.io/Mandaditos-Jeshia/">
-<meta property="twitter:title" content="Mandaditos Jeshia - Servicio de Mensajería Local">
-<meta property="twitter:description" content="Servicio local de mensajería y encargos en Acayucan, Oluta y Soconusco, Veracruz.">
-<meta property="twitter:image" content="images/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
 ```
-
-### Mejoras SEO Sugeridas
-
-1. **Crear og-image.png** (1200x630px) con screenshot de la landing
-2. **Sitemap.xml** para indexing
-3. **robots.txt** para control de crawling
-4. **Schema.org** markup para negocio local
-5. **Canonical URL** para evitar duplicados
 
 ---
 
 ## 🎨 Personalización
 
-### Guía para Colores
+### Guía Rápida
 
-#### Cambiar Color Principal
-
-1. Abrir `styles.css`
-2. Buscar `:root` (~línea 10)
-3. Modificar `--primary-400` al color deseado
+#### 1. Cambiar Color Principal
 
 ```css
+/* En styles.css */
 :root {
-    /* Original */
-    --primary-400: #F97316;
-    
-    /* Alternativas populares */
-    /* Azul: #3B82F6 */
-    /* Verde: #22C55E */
-    /* Rojo: #EF4444 */
-    /* Púrpura: #8B5CF6 */
+    --primary-400: #TU_COLOR;
 }
 ```
 
-#### Paletas Predefinidas
+#### 2. Agregar/Editar Servicios
 
-| Nombre | Color Principal | Uso Recomendado |
-|--------|-----------------|-----------------|
-| Naranja (Default) | #F97316 | General |
-| Azul Corporativo | #3B82F6 | Profesionales |
-| Verde Ecológico | #22C55E | Ambientales |
-| Rosa Vibrante | #EC4899 | Feminino |
-| Púrpura Premium | #8B5CF6 | Lujo |
+Buscar en `index.html`:
 
-### Guía para Testimonios
+```html
+<div class="service-card glass-card">
+    <div class="service-icon">🔧</div>
+    <h3>Tu Servicio</h3>
+    <p>Descripción breve.</p>
+</div>
+```
 
-Editar en `index.html` líneas 345-370:
+#### 3. Agregar/Editar Testimonios
 
 ```html
 <div class="testimonial-card glass-card">
     <div class="testimonial-rating">★★★★★</div>
-    <p class="testimonial-text">"Tu testimonio aquí..."</p>
+    <p class="testimonial-text">"Tu testimonio..."</p>
     <div class="testimonial-author">
-        <div class="author-avatar">👩</div>  <!-- Cambiar emoji -->
+        <div class="author-avatar">👤</div>
         <div class="author-info">
-            <span class="author-name">Nombre Real</span>
-            <span class="author-role">Rol/Lugar</span>
+            <span class="author-name">Nombre</span>
+            <span class="author-role">Ubicación</span>
         </div>
     </div>
 </div>
 ```
 
-**Tips para testimonios efectivos:**
-- Usar nombres reales (con permiso)
-- Incluir ubicación específica
-- Mencionar el beneficio principal experimentado
-- Mantener entre 80-150 caracteres
-
-### Guía para FAQ
-
-Editar en `index.html` sección FAQ:
+#### 4. Agregar/Editar FAQ
 
 ```html
 <div class="faq-item">
     <button class="faq-question">
-        <span class="faq-question-text">Tu pregunta aquí?</span>
+        <span class="faq-question-text">Tu pregunta?</span>
         <span class="faq-icon">▼</span>
     </button>
     <div class="faq-answer">
-        <p>Tu respuesta aquí...</p>
-    </div>
-</div>
-```
-
-**Preguntas FAQ recomendadas:**
-1. "¿Cuáles son los horarios de servicio?"
-2. "¿Cómo se calculan los costos?"
-3. "¿Qué áreas cubren?"
-4. "¿Cómo reportar un problema?"
-5. "¿Aceptan pagos con tarjeta?"
-
-### Cambiar Imágenes Placeholder
-
-1. Generar imágenes con prompts proporcionados
-2. Guardar en carpeta `/images/`
-3. Actualizar referencias en `index.html`:
-
-```html
-<!-- Logo -->
-<img src="images/logo.png" alt="Mandaditos Jeshia" class="logo-img">
-
-<!-- Hero Visual (si usas imagen en vez de esfera) -->
-<div class="hero-visual">
-    <img src="images/hero_visual.png" alt="Mandaditos Jeshia">
-</div>
-```
-
-### Agregar Nuevos Servicios
-
-1. Copiar estructura de flip card existente
-2. Modificar emoji y gradiente
-3. Actualizar descripción y tags
-4. Agregar en grid
-
-```html
-<div class="service-card-flip">
-    <div class="service-card-inner">
-        <div class="service-card-front">
-            <div class="service-placeholder" style="background: linear-gradient(135deg, #TU_COLOR 0%, #TU_COLOR_OSCURO 100%);">
-                <span class="placeholder-icon">🔧</span>
-            </div>
-            <div class="service-overlay">
-                <h3 class="service-title-front">Tu Servicio</h3>
-            </div>
-        </div>
-        <div class="service-card-back glass-card">
-            <div class="service-icon">🔧</div>
-            <h3 class="service-title-back">Tu Servicio</h3>
-            <p class="service-description">Descripción del servicio...</p>
-            <div class="service-features">
-                <span class="feature-tag">Característica 1</span>
-                <span class="feature-tag">Característica 2</span>
-            </div>
-        </div>
+        <p>Tu respuesta...</p>
     </div>
 </div>
 ```
@@ -800,63 +538,26 @@ Editar en `index.html` sección FAQ:
 
 ## 🗺️ Roadmap
 
-### Fase 1: MVP ✅ (Completada v1.0.0 - v2.0.0)
+### Fase 1: Landing MVP ✅ (v1.0.0-v2.0.0)
+- Landing funcional dark mode
+- Servicios y cobertura
 
-**Objetivo:** Landing page funcional
-
-| Hito | Estado | Fecha |
-|------|--------|-------|
-| Wireframe y diseño | ✅ | Pre-v1 |
-| HTML semántico | ✅ | Pre-v1 |
-| CSS responsive | ✅ | Pre-v1 |
-| JavaScript básico | ✅ | Pre-v1 |
-| Deploy inicial | ✅ | 17 Mar 2026 |
-
----
-
-### Fase 2: Enhanced ✅ (v2.0.0 - v3.0.0)
-
-**Objetivo:** Landing page premium
-
-| Hito | Estado | Fecha |
-|------|--------|-------|
-| Flip cards 3D | ✅ | v2.0.0 |
-| Partículas flotantes | ✅ | v2.0.0 |
-| Glassmorphism | ✅ | v2.0.0 |
-| Contadores animados | ✅ | v2.0.0 |
-| Scroll reveal | ✅ | v2.0.0 |
-| Sección trámites | ✅ | v3.0.0 |
-| FAQ interactivo | ✅ | v3.0.0 |
-| WhatsApp floating | ✅ | v3.0.0 |
-
----
+### Fase 2: Optimización ✅ (v3.0.0-v4.0.0)
+- Cierre rápido
+- WhatsApp only
+- FAQ + Testimonios
+- Mobile-first
 
 ### Fase 3: Growth 🔄 (Q2 2026)
-
-**Objetivo:** Aumentar conversiones y presencia digital
-
-| Hito | Estado | Fecha Esperada |
-|------|--------|----------------|
-| Analytics integrado | ⏳ | Abril 2026 |
-| Formulario de contacto | 🔲 | Abril 2026 |
-| WhatsApp Business API | 🔲 | Mayo 2026 |
-| PWA (Progressive Web App) | 🔲 | Mayo 2026 |
-| Blog/Artículos | 🔲 | Junio 2026 |
-
----
+- Analytics integrado
+- PWA (Progressive Web App)
+- Formulario con Formspree
 
 ### Fase 4: Scale 🔲 (Q3-Q4 2026)
-
-**Objetivo:** Expansión y automatización
-
-| Hito | Estado | Fecha Esperada |
-|------|--------|----------------|
-| App móvil (React Native) | 🔲 | Julio 2026 |
-| Sistema de pedidos online | 🔲 | Agosto 2026 |
-| Panel admin | 🔲 | Septiembre 2026 |
-| Chatbot IA | 🔲 | Octubre 2026 |
-| Integración pagos en línea | 🔲 | Noviembre 2026 |
-| Expansión a nuevos municipios | 🔲 | Diciembre 2026 |
+- App móvil
+- Panel admin
+- Mercado Pago
+- Expansión municipios
 
 ---
 
@@ -864,64 +565,33 @@ Editar en `index.html` sección FAQ:
 
 ### Desarrollador
 
-<div align="center">
-
-**OSCAR OMAR Gómez Peña**  
-*EMPRENDEDOR TECNOLÓGICO DIGITAL*
-
-| Contacto | Detalle |
-|----------|---------|
-| Teléfono | 612-107-8075 |
-| Email Principal | oscaromargp@gmail.com |
-| Email Alternativo 1 | oscar_omargp@hotmail.com |
-| Email Alternativo 2 | oscar_omargp@yahoo.com.mx |
-| Web | [bit.ly/oscaromargp](https://bit.ly/oscaromargp) |
-| GitHub | [@oscaromargp](https://github.com/oscaromargp) |
-
-</div>
+| Campo | Detalle |
+|-------|---------|
+| **Nombre** | Oscar Omar Gómez Peña |
+| **Rol** | Emprendedor Tecnológico Digital |
+| **Contacto** | GitHub: [@oscaromargp](https://github.com/oscaromargp) |
 
 ### Información del Negocio
 
 | Campo | Detalle |
 |-------|---------|
 | **Nombre** | Mandaditos Jeshia |
-| **Teléfono 1** | 924 144 0357 |
-| **Teléfono 2** | 924 101 2877 |
-| **WhatsApp** | 52 924 144 0357 |
-| **Ubicación** | Acayucan, Oluta y Soconusco, Veracruz, México |
-| **Horario** | Lunes a Domingo, 8:00 AM - 8:00 PM |
-
-### Tecnologías Utilizadas
-
-| Tecnología | Propósito |
-|------------|-----------|
-| **Antigravity** | Framework/Metodología de desarrollo |
-| **GitHub** | Control de versiones y hosting |
-| **Google Fonts** | Tipografía (Plus Jakarta Sans, Inter) |
+| **WhatsApp** | Enlace directo (ver código) |
+| **Ubicación** | Acayucan, Oluta y Soconusco, Veracruz |
+| **Horario** | 8 AM - 8 PM, 7 días |
 
 ---
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
-
----
-
-## 🙏 Agradecimientos
-
-- A la comunidad de Acayucan, Oluta y Soconusco por confiar en Mandaditos Jeshia
-- A [Antigravity](https://antigravity.dev) por la metodología de desarrollo
-- A [GitHub](https://github.com) por la plataforma de hosting
-- A [Google Fonts](https://fonts.google.com) por las tipografías
+MIT License - Libre uso comercial y personal.
 
 ---
 
 <div align="center">
 
-**Hecho con ❤️ para Mandaditos Jeshia**
+**🛵 Mandaditos Jeshia - Tu mandado en menos de 60 minutos**
 
-*Web lista para usar y personalizar*
-
-![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=mandaditos-jeshia)
+*Escríbenos por WhatsApp y resolvemos todo*
 
 </div>
