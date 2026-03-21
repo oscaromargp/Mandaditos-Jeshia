@@ -1,9 +1,9 @@
-# 🚀 Mandaditos Jeshia - Landing Page v4.0.0
+# 🚀 Mandaditos Jeshia - Landing Page v4.1.1
 
 <div align="center">
 
 ![Mandaditos Jeshia](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-4.0.0-22C55E?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-4.1.1-22C55E?style=for-the-badge)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
@@ -325,6 +325,27 @@ Requisitos obligatorios:
 ---
 
 ## 📜 Logs de Versiones
+
+### v4.1.1 - Correcciones de Diseño (20 Marzo 2026) 🔧
+
+**Commit:** Fix release  
+**Fecha:** 20 Marzo 2026  
+**Tipo:** Bug Fix - Estabilidad
+
+#### Cambios Implementados
+
+| Categoría | Cambio | Estado |
+|-----------|--------|--------|
+| **Contadores** | Valores iniciales visibles (3, 8, 100) | ✅ Arreglado |
+| **Contadores** | Animación suave con easing | ✅ Mejorado |
+| **FAQ** | Respuestas inicial cerradas | ✅ Arreglado |
+| **FAQ** | Toggle funcionando con JS | ✅ Mejorado |
+| **Navbar** | Logo enlaza al hero (#hero) | ✅ Arreglado |
+| **Botón WA** | Animation pulse corregida | ✅ Mejorado |
+| **Footer** | Grid layout corregido | ✅ Arreglado |
+| **Mobile** | Estilos responsive mejorados | ✅ Optimizado |
+
+---
 
 ### v4.0.0 - Landing de Cierre Rápido (20 Marzo 2026) ⚡
 

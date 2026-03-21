@@ -1,5 +1,5 @@
 /**
- * Mandaditos Jeshia - Landing Page Script v4.1.0
+ * Mandaditos Jeshia - Landing Page Script v4.1.1
  * Optimizada para Cierre Rápido
  */
 
@@ -73,29 +73,26 @@ function initMobileMenu() {
 function initCounters() {
     const counters = document.querySelectorAll('.stat-number');
     
-    // Simple animation without IntersectionObserver for better compatibility
-    function animateAllCounters() {
+    // Start animation after page load
+    setTimeout(function() {
         counters.forEach(function(counter) {
             const target = parseInt(counter.getAttribute('data-target'));
             if (target) {
                 animateCounter(counter, target);
             }
         });
-    }
-    
-    // Run after a small delay
-    setTimeout(animateAllCounters, 500);
+    }, 300);
 }
 
 function animateCounter(element, target) {
-    const duration = 1500;
+    const duration = 2000;
     const start = performance.now();
     
     function update(currentTime) {
         const elapsed = currentTime - start;
         const progress = Math.min(elapsed / duration, 1);
         
-        // Easing function
+        // Easing function for smooth animation
         const easeOut = 1 - Math.pow(1 - progress, 3);
         const current = Math.floor(easeOut * target);
         
@@ -117,6 +114,16 @@ function animateCounter(element, target) {
 function initFAQ() {
     const faqItems = document.querySelectorAll('.faq-item');
     
+    // Ensure all answers are closed initially
+    faqItems.forEach(function(item) {
+        const answer = item.querySelector('.faq-answer');
+        if (answer) {
+            answer.style.maxHeight = '0';
+        }
+        item.classList.remove('active');
+    });
+    
+    // Add click handlers
     faqItems.forEach(function(item) {
         const question = item.querySelector('.faq-question');
         const answer = item.querySelector('.faq-answer');
